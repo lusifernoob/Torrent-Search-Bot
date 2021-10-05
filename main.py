@@ -98,7 +98,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                              f"**Leechers:** `{torrentList[i]['Leechers']}`\n"
                                              f"**Uploader:** `{torrentList[i]['Uploader']}`\n"
                                              f"**Uploaded on {torrentList[i]['Date']}**\n\n"
-                                             f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @Tor0Xbot[Follow](https://mobile.twitter.com/Lusifer_noob)",
+                                             f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @Tor0Xbot [Follow](https://mobile.twitter.com/Lusifer_noob)",
                                 parse_mode="Markdown"
                             ),
                             reply_markup=InlineKeyboardMarkup(
@@ -201,7 +201,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                              f"**Leechers:** `{torrentList[i]['Leecher']}`\n"
                                              f"**Size:** `{torrentList[i]['Size']}`\n"
                                              f"**Upload Date:** `{torrentList[i]['Date']}`\n\n"
-                                             f"**Magnet:** \n`{torrentList[i]['Magnet']}`\n\nPowered By @Tor0Xbot[Follow](https://mobile.twitter.com/Lusifer_noob)",
+                                             f"**Magnet:** \n`{torrentList[i]['Magnet']}`\n\nPowered By @Tor0Xbot [Follow](https://mobile.twitter.com/Lusifer_noob)",
                                 parse_mode="Markdown"
                             ),
                             reply_markup=InlineKeyboardMarkup(
