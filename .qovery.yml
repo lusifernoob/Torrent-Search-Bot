@@ -1,0 +1,11 @@
+---
+application:
+  name: "torrentsearch"
+  project: "torrentsearch"
+  organization: "OMGINFO"
+routers:
+- name: "main-Torrent-Search-Bot"
+  routes:
+  - application_name: "torrentsearch"
+    paths:
+    - "/*"
